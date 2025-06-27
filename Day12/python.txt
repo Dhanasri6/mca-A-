@@ -1,0 +1,5 @@
+ob=Member(firstname='Thalari',lastname='Dhanasri')
+ ob.save()
+ ob2=Member(firstname='Gayee',lastname='Gayee')
+ ob2.save()
+ Member.objects.all()
