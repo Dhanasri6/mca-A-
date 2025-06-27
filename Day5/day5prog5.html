@@ -1,0 +1,49 @@
+<html><head>
+<style>
+body{
+margin:0;
+}
+ul {
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    Top:0;
+    width:100%;
+}
+li {
+float: left;
+border-right:5px solid #bbb;
+}
+li:last-child
+{
+border-right:none;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover:not(.active)
+ {
+background-color:#111;
+}
+.active{
+background-color:#04AA6D;
+}
+</style></head>
+<body>
+<p>In this example, we remove the bullets from the list</p>
+<ul>
+<li>
+<li><a class="active" href="Student Details.html">Student Details</a></li>
+<li><a href="#personaldetails">"personaldetails.html"</a></li>
+<li> <a href="#Academic Details">Academic Details.html</a></li>
+  <li> <a href="#CommunicationSkills">CommunicationSkills</a></li>
+</ul>
+</body>
+</html>
