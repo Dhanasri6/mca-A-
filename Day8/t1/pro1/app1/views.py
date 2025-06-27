@@ -1,0 +1,26 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+# Create your views here.
+def divya(request):
+    return HttpResponse('<marquee><h1>I am studying</h1></marquee>')
+
+def dhanush(request):
+    a='''<html>
+<head>
+<title>font styles</title>
+</head>
+<body bgcolor=skyblue>
+<basefont face="arial,verdana,sans-serif"size="2"color="#ff0000">
+<p>This is the pages default font</p>
+<h2>example of the &lt;basefont&gt;Element</h2>
+<p><font size="+2"color="darkgray">
+This is darkgray with two sizes larger
+</font>  
+</p>
+<p>font face="courier"size="-1"color="#000000">
+It is a courier font, a size smaller and black in color
+</font>
+</p>
+</body>
+</html>'''
+    return HttpResponse(a)
