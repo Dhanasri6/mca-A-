@@ -1,0 +1,31 @@
+{% load static %}
+<html>
+<head>
+<script src="{%  static 'js/script.js'  %}" >
+</script></head><body>
+</style>
+</head>
+<body bgcolor=skyblue >
+<table border="5">
+<tr>
+<th>FirstNumber</th>
+<td colspan="4"><input id="txtFirstNumber"></td>
+</tr>
+<tr>
+<th>SecondNumber</th>
+<td colspan="4"><input id="txtSecondNumber"></td>
+</tr>
+<tr>
+<th >Sum:</th>
+<td colspan="4"><input id="txtAnswer"></td>
+</tr>
+<td><button onclick="add()">add</button></td>
+<td><button onclick="sub()">sub</button></td>
+<td><button onclick="mul()">mul</button></td>
+<td><button onclick="div()">div</button></td>
+<td><button onclick="xyz()">clear</button></td>
+</tr>
+</table>
+<img src="{% static 'img/Nature.png' %}" height=200 width=400>
+</body>
+</html>
